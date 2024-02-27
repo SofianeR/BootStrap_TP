@@ -1,0 +1,33 @@
+/********************* GENERAL *********************/
+
+:root {
+    --primary-color: #9a0000;
+    --secondary-color: #5c0100
+}
+
+img {
+    width: 100%;
+}
+
+i {
+    font-size: 2em;
+}
+
+.bg-body-primary {
+    background-color: var(--primary-color);
+}
+
+.bg-body-secondary {
+    background-color: var(--secondary-color);
+}
+
+/********************* SECTION ACCUEIL *********************/
+#accueil {
+    height: 45vh;
+
+    background-image: url("./assets/pizza-2810589_1920.jpg");
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+
+}
